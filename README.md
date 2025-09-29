@@ -58,3 +58,5 @@ This guide helps you set up a local AI tool using MCP on your Mac. You install D
 [^More]: Applications to use.<br>
         -[Claude Desktop](https://claude.ai/download)<br>
         -[LM Studio](https://lmstudio.ai)<br>
+        -[GPT4All](https://www.nomic.ai/gpt4all)<br>
+        -[Ollama](https://ollama.com/download)<br>
