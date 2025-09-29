@@ -45,6 +45,16 @@ Next within Docker go to catalog an choose MCP servers to run.
 
 ![Docker Reference Servers](Assets/dockerReferenceServers.png)
 
+## Tips
+### - Keep Docker running in the background.
+### - Keep both the applications up to date.
+### - This for sure works on macOS Tahoe on sillicon
+### - Ensure your computer has the right hardware to run these applications.
+
+## Summary
+This guide helps you set up a local AI tool using MCP on your Mac. You install Docker and an app like Claude Desktop, turn on MCP in Docker, and connect them so they can work together. Once it’s set up, the AI runs on your computer instead of the cloud, which can be faster, more private, or just more fun to mess around with. It’s a pretty straightforward setup once you have everything installed.
+
+
 [^More]: Applications to use.<br>
         -[Claude Desktop](https://claude.ai/download)<br>
         -[LM Studio](https://lmstudio.ai)<br>
