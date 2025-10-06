@@ -1,62 +1,22 @@
-# Setting Up a Local MCP Environment with Claude Desktop and Docker Desktop on Mac
+# 🧠 Setting Up a Local MCP Environment with Claude Desktop and Docker Desktop on Mac
 
-This guide explains how to set up a local environment on your Mac for working with the **Model Context Protocol (MCP)** using **Claude Desktop** and **Docker Desktop**. The goal is to create a simple yet flexible setup where you can test and build projects that use MCP — a protocol that enables different AI tools and services to communicate by sharing context.
+A lightweight, flexible server framework for managing and interacting with models using the **Model Control Protocol (MCP)**. Designed for real-time communication, automation, and easy integration across systems.
 
-By the end of this guide, you’ll have Claude Desktop running alongside Docker containers that can send and receive context using MCP. We will walk through installing the necessary tools, configuring connections between them, and ensuring everything works smoothly together.
+***
 
-> **Note:** All scripts and commands provided in this guide are based on my personal use case. Alternative options or variations will be noted in footnotes where applicable.
+## 📦 What is This?
 
-## Setup Instructions
+This project provides a simple and consistent way to control models externally through a standardized messaging protocol. It enables developers to:
 
-### 1. Install Docker Desktop
+- Start, stop, or update models remotely
+- Send and receive structured control messages
+- Integrate with simulations, automation pipelines, or real-time systems
 
-First, install [Docker Desktop App](https://docs.docker.com/desktop/setup/install/mac-install).
+***
 
-Alternatively, install through Homebrew: 
+## 🚀 Features
 
-```
-  brew install --cask docker
-```
-
-### 2. Install a Large Language Model (LLM) Application
-
-Next, install your choice Application links listed here. -> [^More]
-
-```
-  brew install --cask claude 
-```
-
-### 3. Enable MCP in Docker
-
-Open Docker and enable MCP. If it is not enabled by default, activate it in settings.
-
-![Docker Reference MCP](Assets/dockerReferenceMCP.png)
-
-### 4. Connect LLM Application to Docker
-
-Go to **Clients** under **MCP Toolkits** and connect the desired application to docker.
-
-![Docker Reference Clients](Assets/dockerReferenceClients.png)
-
-### 5. Run MCP Servers from catalog
-
-Next within Docker go to catalog an choose MCP servers to run.
-> **Important:** If your LLM application is open when adding new MCP server quit and reopen app.
-
-![Docker Reference Servers](Assets/dockerReferenceServers.png)
-
-## Tips
-### - Keep Docker running in the background.
-### - Keep both the applications up to date.
-### - This for sure works on macOS Tahoe on sillicon
-### - Ensure your computer has the right hardware to run these applications.
-
-## Summary
-This guide helps you set up a local AI tool using MCP on your Mac. You install Docker and an app like Claude Desktop, turn on MCP in Docker, and connect them so they can work together. Once it’s set up, the AI runs on your computer instead of the cloud, which can be faster, more private, or just more fun to mess around with. It’s a pretty straightforward setup once you have everything installed.
-
-
-[^More]: Applications to use.<br>
-        -[Claude Desktop](https://claude.ai/download)<br>
-        -[LM Studio](https://lmstudio.ai)<br>
-        -[GPT4All](https://www.nomic.ai/gpt4all)<br>
-        -[Ollama](https://ollama.com/download)<br>
+- 🔌 **Standardized Control Protocol** – Easy-to-follow message format
+- ⚙️ **Real-Time Interaction** – Send and receive commands live
+- 📤 **Modular & Extensible** – Plug into your existing systems or tools
+- 🧪 **Cross-Platform Ready** – Works across different platforms and environments
